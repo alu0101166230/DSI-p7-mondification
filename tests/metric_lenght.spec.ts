@@ -3,7 +3,8 @@ import {expect} from 'chai';
 import {MetricLenght} from '../src/metric_lenght';
 
 describe('MetricLenght', () =>{
-  const metricLenght = new MetricLenght(100);
+  let metricLenght = new MetricLenght();
+  metricLenght.setCm(100);
 
 
   it('Metric must retunr unit by cm', ()=> {

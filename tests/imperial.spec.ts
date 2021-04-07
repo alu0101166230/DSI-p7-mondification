@@ -3,7 +3,7 @@ import {expect} from 'chai';
 import {ImperialLenght} from '../src/imperial_lenght';
 
 describe('ImperialLenght', () =>{
-  const imperialLenght = new ImperialLenght(100);
+  const imperialLenght = new ImperialLenght();
 
 
   it('Metric must retunr unit by cm', ()=> {

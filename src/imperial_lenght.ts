@@ -1,6 +1,7 @@
 export class ImperialLenght {
-  constructor(
-          private lenght: number,
+    private lenght: number = 0;
+    constructor(
+         
   ) {
 
   };
